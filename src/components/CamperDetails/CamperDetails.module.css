@@ -1,0 +1,269 @@
+.TitleAndReviewsAndPrice h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #101828;
+  margin-left: 75px;
+}
+.ReviewsAndLocation {
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #101828;
+  margin-left: 75px;
+  gap: 20px;
+  
+}
+.Price h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #101828;
+}
+.GalleryGrid {
+  width: 1312px;
+  height: 312px;
+  justify-content: space-between;
+  margin-left: 75px;
+}
+.GalleryList {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+.GalleryList img {
+  width: 292px;
+  height: 312px;
+  gap: 10px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.DescriptionP {
+  font-family: "Inter", sans-serif;
+  width: 1312px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+  margin-left: 75px;
+}
+.FeaturesAndReviewsBtn {
+  width: 1312px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-left: 75px;
+}
+.FeaturesAndReviewsBtn button {
+  background: none;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #101828;
+  cursor: pointer;
+}
+.FeaturesList ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style-type: none;
+  width: 527px;
+  height: 104px;
+  flex-wrap: wrap;
+}
+.DetailRow {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101828;
+}
+.FeaturesReviewsAndContact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1312px;
+  margin-left: 75px;
+}
+.FeaturesReviewsDiv {
+  width: 631px;
+  height: 588px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  gap: 100px;
+}
+.VehicleDetails {
+  width: 527px;
+  height: 296px;
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  justify-content: flex-start;
+  padding-left: 40px;
+}
+.VehicleDetails h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #101828;
+}
+
+.BtnAndDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.FeaturesItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  background-color: #f2f4f7;
+  border-radius: 100px;
+  padding: 10px;
+}
+.Contact {
+  width: 641px;
+  height: 588px;
+  border-radius: 10px;
+  border: 1px;
+  border-style: solid;
+  gap: 24px;
+  border-color: #dadde1;
+}
+.ContactCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}
+.ContactCard h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #101828;
+  align-self: flex-start;
+  padding-left: 50px;
+}
+.ContactCard p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6c717b;
+  align-self: flex-start;
+  padding-left: 50px;
+}
+
+.FormGroup input {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border-style: none;
+  width: 527px;
+  height: 60px;
+  background-color: #f7f7f7;
+  color: #6c717b;
+  margin: 10px;
+  border-radius: 12px;
+}
+.FormGroup textarea {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border-style: none;
+  width: 527px;
+  height: 60px;
+  background-color: #f7f7f7;
+  color: #6c717b;
+  margin: 10px;
+  border-radius: 12px;
+}
+.SubmitBtn {
+  font-family: "Inter", sans-serif;
+  width: 166px;
+  height: 56px;
+  border-radius: 200px;
+  gap: 10px;
+  background-color: #e44848;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5%;
+  color: white;
+  border: none;
+  margin-left: 30%;
+}
+.ReviewsList p{
+   font-family: "Inter", sans-serif;
+   font-weight: 400px;
+   font-size: 16px;
+   line-height: 24px;
+   color: #475467;
+   padding: 20px;
+}
+.ReviewsList li{
+ list-style-type: none;
+}
+.ReviewHead{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.ReviewContain{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+
+}
+.NameFirstDiv{
+  background-color:#f2f4f7;
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  
+ 
+}
+.NameFirstChar{
+font-family: "Inter", sans-serif;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+color: #e44848;
+margin-top: 20%;
+
+
+
+}
